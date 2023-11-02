@@ -1,4 +1,5 @@
 import { Html, Head, Main, NextScript } from 'next/document'
+import { StyleRegistry } from 'styled-jsx'
 
 export default function Document() {
   return (
@@ -13,6 +14,9 @@ export default function Document() {
         <meta name="twitter:card" content="summary_large_image"></meta>
       </Head>
       <body>
+        
+        
+      
         <Main />
         <NextScript />
       </body>
